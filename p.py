@@ -1,2 +1,2 @@
-print("HEllo world ciiinn ")
+print("HEllo world 
 print("my name is chandan")
