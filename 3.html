@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p1 id="p1">i'm good guy</p1>
+    <button onclick="dothat()">HIt me!</button>
+    <script>
+        let ele=document.getElementById("p1");
+        function dothat(){
+            ele.style.backgroundColor="blue";
+            ele.style.padding="15px 30px";
+            ele.style. fontSize= "18px";
+            ele.style.fontWeight= "bold";
+            ele.style.textTransform="uppercase";
+            ele.style.border="2px solid #39ff14"; 
+            ele.style.backgroundColor= "#1f1f1f";  
+            ele.style.color= "#39ff14";  
+            ele.style.cursor= "pointer";
+            ele.style.borderRadius= "5px";
+            ele.style.outline="none";
+            ele.style.transition= "all 0.3s ease";
+            ele.style.boxShadow= "0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 15px #39ff14";
+            ele.innerText="Bad guy"
+        }
+    </script>
+</body>
+</html>
