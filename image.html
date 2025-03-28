@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="p" src="C:/Users/Ethnotech/Desktop/010/.vscode/istockphoto-1319461351-612x612.jpg">
+    <button onclick="changeImage()">Change image</button>
+    <script>
+        function changeImage(){
+            var image = document.getElementById("p");
+            image.setAttribute("src", "C:/Users/Ethnotech/Pictures/bn.webp");  
+            image.setAttribute("height", "500px");
+            image.setAttribute("width", "500px");
+        }
+    </script>
+</body>
+</html>
