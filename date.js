@@ -1,0 +1,12 @@
+ var a=new Date();
+    console.log(a,typeof(a));
+    console.log(a.toTimeString());
+    console.log(a.toLocaleTimeString());
+    console.log(a.toDateString());
+    console.log(a.getFullYear());
+    console.log(a.getMinutes());
+    console.log(a.getMonth());
+    console.log(a.getMonth()+1);
+    console.log(a.getMonth()-1);
+    console.log(a.getFullYear()-1);
+    console.log(a.getFullYear()+1);

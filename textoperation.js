@@ -1,0 +1,15 @@
+let text="chandan";
+    console.log(text.substring(0,4));
+    console.log(text.slice(-6));
+    var name="chandan";
+    console.log(name.length);
+    console.log("hello".toUpperCase());
+    console.log("HHHHH".toLowerCase());
+    let se="i love india";
+    console.log(se.replace("india","manju the hero"));
+    var a=eval("2.4+2.6");
+    console.log(a);
+    console.log(typeof(a));
+    let x="10",y="15";
+    var b=eval("x*y");
+    console.log(b,typeof(b));

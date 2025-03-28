@@ -1,0 +1,34 @@
+var a=[5,3,4,2,1];
+console.log(a);
+var fruits=new Array("a","b","c","d");
+console.log(fruits);
+console.log(fruits.slice(0,3));
+console.log(a.length);
+console.log(a[0]);
+console.log(a[a.length-1]);
+console.log(a.indexOf(1));
+console.log(a.includes(6));
+for(let i=0;i<a.length;i++){
+    console.log(a[i]);
+}
+console.log(a.includes(6));
+a.sort((a,b)=>a-b);
+console.log(a);
+var a="10.222";
+console.log(typeof(a));
+console.log(parseInt(a));
+console.log(parseFloat(a));
+var a2=parseFloat(a);
+console.log(typeof(a2));
+console.log(a.toFixed(2));
+console.log(a.toPrecision(4));
+var b=a2.toLocalString("en-us");
+console.log(b);
+console.log(typeof(b));
+var b2=a2.tpLocalString("hi-IN");
+console.log(b2);
+console.log(typeof(b2));
+let str1="chandan";
+let str2="manju";
+console.log(str1+" "+str2 );
+console.log(`${str1}${str2}`);
